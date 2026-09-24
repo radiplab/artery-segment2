@@ -377,6 +377,16 @@ tempCodeRunnerFile.py
 # PyPI configuration file
 .pypirc
 
+# nnU-Net runtime directories created by the prediction engines
+dummy_raw/
+dummy_preprocessed/
+
+# Inference outputs and temporary files
+working/input/
+working/output/
+temp_topbrain_*/
+temp_rsna_*/
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
